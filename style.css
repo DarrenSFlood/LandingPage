@@ -18,7 +18,7 @@ ul {
 
 .header {
     background-color: #1F2937;
-    padding-bottom
+
     
 }
 
@@ -88,7 +88,7 @@ a:active {
     border-radius: 10px;
     font-weight: 500;
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 8px;
     width: 8rem;
 }
 
@@ -192,5 +192,17 @@ a:active {
     padding: 8px 30px;
     justify-content: center;
     align-items: center;
+}
 
+/* Footer area */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.footer p {
+    color: #E5E7EB;
 }
