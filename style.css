@@ -6,6 +6,9 @@
     font-family: Roboto;
 }
 
+ul {
+    list-style: none;
+}
 .pagecontainer {
     padding-left: 15rem;
     padding-right: 15rem;
@@ -15,6 +18,7 @@
 
 .header {
     background-color: #1F2937;
+    padding-bottom
     
 }
 
@@ -36,7 +40,7 @@
 }
 
 .navigation {
-    list-style: none;
+    
     display: flex;
     gap: 30px;
     font-size: 18px;
@@ -55,11 +59,14 @@ a:active {
 
 .hero {
     display: flex;
-    padding: 5rem 0rem;
+    padding: 8rem 0rem;
 }
 
 .herotext {
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    
 }
 
 .herotext h3 {
@@ -82,6 +89,7 @@ a:active {
     font-weight: 500;
     font-size: 18px;
     margin-top: 5px;
+    width: 8rem;
 }
 
 .heroimage {
@@ -89,4 +97,100 @@ a:active {
     background: darkgrey;
     text-align: center;
     align-content: center;
+}
+
+/* Information header starts here */
+
+.information {
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.infotitle {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+ .infoimages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.infoimages li {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.infoimages img {
+    border: solid  #3882F6  4px;
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+} 
+/* Quote section starts here */
+.quotesection {
+    background-color: #E5E7EB;
+    padding: 8rem 0;
+}
+
+.quotesection .quote h2 {
+    font-size: 36px;
+    font-weight:300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quotesection .quote p {
+    font-weight: 500;
+    font-size: 28px;
+    align-self: flex-end;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    padding: 0 4.5rem;
+}
+
+/* Call to Action area */
+.calltoaction {
+    background: #F9FAF8;
+}
+
+.calltoaction .banner {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    gap: 2.5rem;
+    padding: 50px 0px;
+    margin: 5rem 0;
+}
+
+.calltoaction .bannertext {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttoncontainer button {
+    width: 8rem;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #F9FAF8 solid 3px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: large;
+    padding: 8px 30px;
+    justify-content: center;
+    align-items: center;
+
 }
