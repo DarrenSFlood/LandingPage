@@ -83,6 +83,7 @@ a:active {
 
 .herotext button {
     background-color: #3882F6;
+    border:#3882F6 solid 3px;
     color:#E5E7EB;
     padding: 5px 25px;
     border-radius: 10px;
